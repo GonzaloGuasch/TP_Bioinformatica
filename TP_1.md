@@ -13,6 +13,7 @@ Manteniendo la lógica del ejercicio anterior, tendría que implementar un Array
 
 Fue una investigadora en el campo de los rayos x, siendo su investigación la que deriva en poder sacar la primer fotografia de la estructura de doble hélice del ADN. Ademas de esto, según el articulo. Ella había llegado a la misma conclusión sobre el ADN que los que publicaron la investigación, pero estos cientificos fueron mas rápidos.
 ### Proponé en pseudocódigo un programa que prediga la estructura secundaria que adoptará cada residuo de la secuencia proteica dada, especificandola como H(si es una hélice), B(Si es una hoja beta plegada) y L(Si es un bucle o loop).
+```
 public function posicionDe(Char aminoacido){
   if(aminoacido.tieneTendenciaEnH()){ return 'H'}
     else if(aminoacido.tieneTendenciaEnB()){ return 'B'}
@@ -23,5 +24,5 @@ public function prediccion_proteina(List[String] cadenaDeAminoacidos){
     cadenaDeAminoacidos.forEach(unAminoacido -> estructuraSecundaria.add(posicionDe(unAminoacido));
       return estructuraSecundaria;
 }
-
+```
 ### ¿Qué hace distintos a dos individuos de una especie? Propone una forma de corrobarar tu respuesta realizando un diagrama de un posible método computacional para dicho fin.
