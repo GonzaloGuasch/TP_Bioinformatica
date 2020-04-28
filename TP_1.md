@@ -26,3 +26,15 @@ public function prediccion_proteina(List[String] cadenaDeAminoacidos){
 }
 ```
 ### ¿Qué hace distintos a dos individuos de una especie? Propone una forma de corrobarar tu respuesta realizando un diagrama de un posible método computacional para dicho fin.
+
+La diferencia es el ADN, tanto su longitud como su composición, ya que al ser diferente la estructura primaria, los aminoácidos sintetizados van a ser diferentes. Por otro lado, si tienen la misma estructura primara pero la longitud es diferente
+uno va a producir mas codones que el otro.
+Un programa que resuelva esta duda podría tener una función que reciba dos cadenas primarias de individuos de una misma especie y retorna si son distintos o iguales
+```
+public function sonCadenasIguales(String[] cadena_primaria_a, String[] cadena_primaria b){
+  var proteinas_individuo_a = proteinasSintetizadasEn(cadenaPrimaria_a);
+  var proteinas_individuo_b = proteinasSintetizadasEn(cadenaPrimaria_b);
+  
+    return proteinas_individuo_a === proteinas_individuo_b;
+```
+
