@@ -24,7 +24,7 @@ Aplicando la investigación de Rosalind Franklin, se extrae de su ambiente origi
 ### ¿Qué significan las cintas, las flechas y las regiones angostas?
 
 Esas regiones representan las diferentes estructuras secundarias que adopta esa proteina, al ver en detalle la representación especifica cual es el aminoácido que tiene esa forma en particular. 
-Por ejemplo el aminoácido numero 45, la Fenilalanina esta en forma de alfa hélice
+Por ejemplo el aminoácido numero 45, la Fenilalanina esta en forma de alfa hélice.
 
 
 ### ¿Representa esta ímagen la realidad del sistema biológico?
@@ -34,4 +34,25 @@ Es decir su forma natural esta en constante moviento, cosa que impediría fotogr
 
 
 ### ¿Cuál es la utilidad y los condicionamientos de usar un modelo científico que sabemos inexacto?
+
+Tiene muchos casos de uso tener un modelo inexacto, primero que nada ayuda a llevar algo imposible de visualizar con un ojo humano a una representación 3D, la cual podemos cambiar su estructura ver que aminoácidos la forman, etc. Por otra parte ayuda a la ciencia a 'simplificarse' ya que al poder ver esto, personas como los estudiantes de programación que no tenemos conocimientos de biologia, podemos llegar a entener que estamos viendo. 
+Ahora hay que tener en cuenta que lo que vemos no es realmente lo que es, no tomar esa imagen 'con pinzas' ya que en la realidad no es como esta esa proteina y podría llegar a reaccionar de una forma inesperada si solamente nos basamos en las fotografias tomadas.
+
+### ¿Qué diferencias y similitudes notamos respecto de la representación inicial?
+
+La primera diferencia es que se abre un visualizador, donde moviendo el cursor podremos recorrer la proteína. No solo eso sino que esta detalla la estructura primaria y tenemos la posibilidad de cambiar la representación actual para ver cuales son las distintas formas que esta toma. 
+
+### ¿Para qué podría ser útil visualizar lo mismo de distintas maneras? 
+
+Cada tipo de representación nos brinda información diferente sobre la proteína, ver la estructura terciaria, nos sirve para ver en que regiones hay que tipo de estructura. Por otra parte ver los 'huecos' que tiene la misma es util para investigar sobre como se podría utilizar esa proteína en la producción de farmacos, es decir como utilizar esta misma para 'unirla' con otras.
+
+### ¿Qué información esperaría encontrar como resultado un experimento destinado a determinar la estructura terciaria de una molécula biológica?
+
+Esperaria tener las coordenadas de cada aminoácido, para saber su disposición espacial.
+
+### ¿En que consiste un archivo PDB?
+
+Consiste en toda la información sobre como fue realizado el experimento, quienes fueron los autores, un cuadro explayando información especifica sobre cada atomo que pertenece a la cadena primaria. 
+
+### ¿Que tipo de información brinda esta sección? (ATOM)
 
