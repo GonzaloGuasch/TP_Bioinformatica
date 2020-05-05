@@ -62,10 +62,10 @@ Brinda la información de un atomo en especifico, por ejemplo nitrogeno. a Que a
 Si, PDB te brinda al lado de cada atomo un numero, ese numero es la posición de la cadena primaria. Habria que parsear todos los atomos de todas las posiciones y sabriamos como esta conformada dicha estructura.
 Viendo que las columnas tienen información breve (una sola letra para representar el tipo de atomo, tres numeros para los ejes), podriamos tener una lista de listas con la misma logica de las columnas de PDB. Pero en mi caso eligiria que cada fila sea un objeto para que sea mas facil trabajar con ellos. Ambas soluciones me parecen igual de funcionales. 
 
-###¿Considera que el formato de PDB es útil para presentar los resultados del experimento?
+### ¿Considera que el formato de PDB es útil para presentar los resultados del experimento?
 
 Siendo una persona que no tiene contacto con la ciencia, me parece que el formato no es amigable pero cumple con la información que uno/a busca sobre una proteina, es nada mas aprender a leer el formato.
 
-###¿Cuáles son los beneficios y las limitaciones de imponer una estructura para comunicar los resultados de un experimento?
+### ¿Cuáles son los beneficios y las limitaciones de imponer una estructura para comunicar los resultados de un experimento?
 
 Los beneficios es poder tener definido un protocolo, todos los archivos de PDB van a tener ese formato y simplifica el poder trabajar con el mismo. Poder parsear las partes o crear programas sobre un archivo PDB, nos va a servir para todos los que estén en la base de datos. Ahora del lado mas humano, al principío va a ser muy dificultoso leer, sin casi entender lo que estamos viendo, a menos que alguien nos explique o leer la documentación. Algo que me parece recurrente en la ciencia que nunca prioriza lo visual ya que al estar hablando entre biologos se espera un minimo nivel de conocimiento. Alejando así a personas ajenas a estos protocolos. 
