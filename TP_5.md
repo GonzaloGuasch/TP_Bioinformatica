@@ -16,9 +16,7 @@ Primero fuí bajando de a poco el valor de gap ( de uno en uno) y me di cuenta q
 a un valor positivo (gap = 1) y la solución fue una cadena totalmente diferente, viendo esto llego a la conclusión de que dependiendo de esos valores, la solución puede 
 ser radicalmente diferente y hay que estar seguro de que esta buscando para no tener un resultado que no le sirve. 
 
-## calculá el E-value y % identidad utilizando el programa Blast de la siguiente secuencia input usando 20000 hits, un e-value de
-100 y tomando aquellos hits con un mínimo de 70% cobertura. Observe y discuta el comportamiento de : E-value vs. % id, Score vs %
-id, Score vs E-value
+## calculá el E-value y % identidad utilizando el programa Blast de la siguiente secuencia input usando 20000 hits, un e-value de 100 y tomando aquellos hits con un mínimo de 70% cobertura. Observe y discuta el comportamiento de : E-value vs. % id, Score vs % id, Score vs E-value
 
 Parece que estos tres valores estan altamente relacionados, ya que cuando varia uno varian también los otros dos. El e-value es nuestro
 valor de referencia para saber que tan certero es esa proteina en esa cadena, cuando menor sea el valor mas confianza nos transmite.
@@ -26,6 +24,6 @@ Cuando corrí en blast la proteina que tiene el menor e-value también tiene el 
 proteína. De igual forma, hay varias secuencias que disminuye el e-value pero el porcentaje de identidad sigue siendo 100%, viendo esto
 entre el score para desempatar y así podemos ver cual es la proteina que comparada con toda esta base de datos es la mas cercana o directamente es la misma
 
-##  Realizá nuevas búsquedas usando la mitad de la
-secuencia problema y para un cuarto de la secuencia original. Compará
-los gráficos obtenidos.¿Qué conclusiones puede sacas?
+##  Realizá nuevas búsquedas usando la mitad de la secuencia problema y para un cuarto de la secuencia original. Compará los gráficos obtenidos.¿Qué conclusiones puede sacas?
+
+Usando la mitad de la secuencia (mitad cortada a ojo), cambiaron todos los valores de resultado. No solo el e-value mas confiable es mayor que el valor con la cadena origianl, sino que el valor maximo también es mucho menor, Estos cambios también se reflejan con el resultado ya que también cambio la proteína con un coverage del 100%, antes era "prion protein precursor [Homo sapiens]prion protein precursor [Ho 
