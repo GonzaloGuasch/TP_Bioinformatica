@@ -22,6 +22,7 @@ Completando el cuadro del PDF con los nombres cómunes:
 No solo que son parecidas, sino que son excatamente iguales, aminoácido por aminoácido.
  
 # ¿Que teorias subyacen a este análisis?
+ Para poder llegar a la conclusión de que una cadena sea igual, parecida o no es necesario saber todas las posiciones de las dos cadenas, para esto no solo es necesario haber analizado ambas secuencias por separado para conocerlas sino que hay que alinear ambas para conocer en la posición N los residuos que hay en ambas. para saber cual es la alineación mas precisa hay que aplicar un algoritmo de alineación.
  
 # ¿Cómo nos ayuda la evolución a explicar sus similitudes y diferencias?
 Viendo que especies tan diferentes comparten una proteina con una cadena primaria tan similar, la teoria de que provenimos de un ancestro en común cobra un peso mucho mas importante y viendo las cadenas alineadas, no parace tan dificil de creer en ella.
@@ -31,7 +32,7 @@ Al mismo tiempo, la teoria de la evolución habla de un constante cambio y evolu
 Cada color representa un aminoácido diferente, esta representación ayuda a la vista para rapidamente darnos cuenta de las similutades/diferencias de las secuencias, por lo menos a un modo mas amplio. 
 
 # ¿Qué indican el guión(-), los dos puntos(:) y el asterisco (*)?
-El asterisco indica que en la posición n que esta todas las cadenas tienen los mismos residuos, el guion nos indica una inserción de un gap en la cadena y los dos puntos [[[[]]]]]
+El asterisco indica que en la posición n que esta todas las cadenas tienen los mismos residuos, el guion nos indica una inserción de un gap en la cadena y los dos puntos representan una buena conservación, siendo menos confiable que si fuera un '*'.
 # ¿Se conserva la secuencia del citocromo c en los organismos?
 
 # ¿Creeríamos que todos los organismo se asemejan por igual al resto, o se pueden identificar grupos de mayor similitud? Si es así, ¿tienen sentid?¿Qué evidencias nos aportaría este análisis, a la luz de la evolución?¿Cuáles creeria que deberian estar más agrupados en el árbol filogenético?
