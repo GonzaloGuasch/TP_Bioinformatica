@@ -1,5 +1,11 @@
 # TP_Bioinformatica
 
+## Alinear la palabra "BANANA" y "MANZANA" ¿Existe una única forma de alinearlas?¿Alguna forma es mejor que la otra?¿Por qué?
+Para alinear una cadena o en este caso una palabra con la otra hay muchas posibilidades distintas, por dar un ejemplo se podría poner un gap entre cada caracter y seria una alineación totalmente valida. Para se crea los valores de alineación que son los de missmatch, match y gap. Donde se le asigna un valor a cada uno para cuando se aplique el algortimo de Needleman-Wunsch nos de la mejor alineación posible para los valores que elegimos.
+
+## Al alinear la palabra "ANA" y "ANANA" cambia el valor de identidad ¿Son todos los valores iguales? ¿Qué consideraciones deberían tenerse en cuenta a la hora de realizar el cálculo?
+No, no son todos los valores iguales ya que no es lo mismo considerar un gap que un missmatch y al mismo tiempo este missmatch tiene distintos valores. No es lo mismo cambiar de T -> A que de C -> G, ya que el scoring es diferente. Ya unos son mas estables que los otros siendo que el cambio no representariá tanta desestabilidad para la cadena.
+
 ## Pensar los pasos a seguir en un alineamiento de dos secuencias cortas
  
 Lo primero que habría que hacer al momento de alinearlas es saber cual es el mejor camino posible que tenemos frente a estas cadenas,
