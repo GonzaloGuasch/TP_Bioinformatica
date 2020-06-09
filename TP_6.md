@@ -7,4 +7,14 @@ Lo primero que habría que hacer es saber que predominancia tiene este humano-mo
 
 ## RETO II: Como vimos anteriormente existen algunos softwares optimizados para confeccionar alineamientos de secuencias. En particular hemos trabajado con Clustal (Larkin et al. 2007). Confecciona los alineamientos para los del punto Ia y Ib análisis.
 
-![](bart vs mosca vs hombre.png)
+![](https://github.com/GonzaloGuasch/TP_Bioinformatica/blob/master/bart%20vs%20mosca%20vs%20hombre.png?raw=true)
+
+![](https://github.com/GonzaloGuasch/TP_Bioinformatica/blob/master/arbolBartHumanoMosca.png)
+
+
+Como se puede ver cuando alineamos las tres secuencias nada mas no tenemos mucha información que nos sea relevante. Pero si agregamos muchas secuencias el OUTPUT cambia radicalmente
+
+![](https://github.com/GonzaloGuasch/TP_Bioinformatica/blob/master/bartVsTodos.png)
+![](https://github.com/GonzaloGuasch/TP_Bioinformatica/blob/master/arbolBartYSecuencias.png)
+
+Viendo esto sabemos que ahora el bart mosca es mas bart que mosta pero sigue estando altamente relacionado. 
