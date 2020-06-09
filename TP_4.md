@@ -35,6 +35,8 @@ Cada color representa un aminoácido diferente, esta representación ayuda a la 
 El asterisco indica que en la posición n que esta todas las cadenas tienen los mismos residuos, el guion nos indica una inserción de un gap en la cadena y los dos puntos representan una buena conservación, siendo menos confiable que si fuera un '*'.
 # ¿Se conserva la secuencia del citocromo c en los organismos?
 
+Si, se conservan ya que el alineamiento se realiza en una muestra del citocromo c, no en el mismo organismo.
+
 # ¿Creeríamos que todos los organismo se asemejan por igual al resto, o se pueden identificar grupos de mayor similitud? Si es así, ¿tienen sentid?¿Qué evidencias nos aportaría este análisis, a la luz de la evolución?¿Cuáles creeria que deberian estar más agrupados en el árbol filogenético?
  Hay organismo que se asemejan mas que otros ya que hay especies que se relacionan mas entre si, por ejemplo el humano tiene mas relación con un gorila que con una mosca. Sabiendo las bases de la teoria de la evolución, esta nos dice que partimos de un ancestro común que en algun punto de la historia nos empezamos a diferenciar creand dos tipos de especies que hoy son diferentes pero seguimos compartiendo muchas caracteristicas a nivel de código genetico 
 
