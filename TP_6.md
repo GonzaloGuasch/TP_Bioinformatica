@@ -21,10 +21,10 @@ Viendo esto sabemos que ahora el bart mosca es mas bart que mosta pero sigue est
 
 
 ## RETO III
-#Como vemos, el servidor nos permite elegir el modelo de sustitución ¿A qué serefiere?
+## Como vemos, el servidor nos permite elegir el modelo de sustitución ¿A qué serefiere?
 El IQtree ofrece una basta variedad de modelos, entre ellas la Blosum62. Eligiendo así cual es la matrix de sustitución que queremos para nuestros aliniamientos.
 
-#¿Qué es el Bootstrap? ¿De qué manera nos habla de la calidad de nuestro árbol? ¿Cómo influye el número de Bootstraps en el resultado?
+## ¿Qué es el Bootstrap? ¿De qué manera nos habla de la calidad de nuestro árbol? ¿Cómo influye el número de Bootstraps en el resultado?
 
-#¿Es necesario realizar algún paso extra, previo a la interpretación del árbol? ¿Por qué?
+## ¿Es necesario realizar algún paso extra, previo a la interpretación del árbol? ¿Por qué?
 Si, primero hay que abrir el archivo del arbol en el programa. Una vez hecho esto, es necesario rutear el arbol, selecionando la rama con las secuencias mas alejadas y elegír la opción "Reroot" para poder realizar el analisis de forma correcta. 
