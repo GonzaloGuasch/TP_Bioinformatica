@@ -25,6 +25,8 @@ Viendo esto sabemos que ahora el bart mosca es mas bart que mosta pero sigue est
 El IQtree ofrece una basta variedad de modelos, entre ellas la Blosum62. Eligiendo así cual es la matrix de sustitución que queremos para nuestros aliniamientos.
 
 ## ¿Qué es el Bootstrap? ¿De qué manera nos habla de la calidad de nuestro árbol? ¿Cómo influye el número de Bootstraps en el resultado?
+El bootstrap es la medida que tenemos para saber la fidelidad de un arbol, es decir a mayor numero de bootstrap mas confiable va a ser. Ya que genera una matriz 
+con la secuencia a analizar, generando un arbol para comparar la calidad con el que ya existe.
 
 ## ¿Es necesario realizar algún paso extra, previo a la interpretación del árbol? ¿Por qué?
 Si, primero hay que abrir el archivo del arbol en el programa. Una vez hecho esto, es necesario rutear el arbol, selecionando la rama con las secuencias mas alejadas y elegír la opción "Reroot" para poder realizar el analisis de forma correcta. 
